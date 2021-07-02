@@ -13,13 +13,20 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+
+
+For my second milestone, I installed OpenCV onto my Raspberry Pi in order to take photos and save photos. Then I wrote a function in python called apiCall() that sends the frame to my Nanonets model and it returns a JSON file. In the while loop, the code extracts the coordinate information from the JSON file and draws the box onto the frame. Finally, the code opens the image so that it is visible on the monitor. A difficulty I faces was debugging the python script. I was not familiar with the OpenCV commands so I had to search up their parameters. Reading a JSON file was also a new concept that was a bit confusing at first.
 
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
+![image](https://user-images.githubusercontent.com/86021700/124323627-7bffa300-db36-11eb-83c2-e7c726d2b828.png)
+![image](https://user-images.githubusercontent.com/86021700/124323006-5cb44600-db35-11eb-89f2-4b211c709514.png)
+
+
+
+
 # First Milestone
   
-My first milestone was setting up the Raspberry Pi with the heatsinks and camera. I also used VNC viewer to control the raspberry Pi from a different computer.
+My first milestone was being able to set up the Raspberry Pi with the camera and sent my dataset of images and annotations into Nanonets in order to train a model. After training and retraining my model, I ended up with a model with 86% accuracy. A problem that I faced was when the Nanonets website declined my annotations. This was because the coordinates in the annotations were floats, which meant they had decimals. Since Nanonets does not read coordinates as decimals, my intrustor helped me redo the annotations so that the coordinates were integers.
 
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
 
 [![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=6DpmbO4qvxA "First Milestone"){:target="_blank" rel="noopener"}
