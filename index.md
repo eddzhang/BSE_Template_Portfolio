@@ -1,5 +1,5 @@
 ﻿# Object Detection With Raspberry Pi
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+My project is Object Detection with Raspberry Pi. I chose this because I wanted to learn about the process of machine learning and explore coding with Python
 
    | **Engineer** | **School** | **Area of Interest** | **Grade** |
    |:--:|:--:|:--:|:--:|
@@ -15,9 +15,12 @@ This will serve as a brief description of your project. Limit this to three sent
 
 
 # Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+For my final milestone, I organized and added comments to my code and I was able to successfully run my security camera. Once it starts running, it takes images and checks if there is a person in the frame by using the Nanonets API. Since the images have the same file name, it replaces itself. Thus, my raspberry pi will not run out of storage space. I really enjoyed the process of learning machine learning and building the project. This project made me more familiar with Python and the process of machine learning. In the future I would like to find ways to increase the framerate and have the raspberry pi send a notification to my phone when a person is detected. 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
+[![Final Milestone]
+
+
+
 
 # Second Milestone
 
